@@ -40,13 +40,11 @@ const  listCats = () => {
 
         <div className="flex flex-col items-stretch content-center space-y-4">
 
-      {/*   <div>
+       <div>
             <ImageGallery></ImageGallery>
         </div>
- */}
-        <div className="w-screen">
-        <Carusel></Carusel>
-        </div>
+
+    
 
         <input type="text" onChange={(e: any) => {setSearchCats(e.target.value)}} placeholder="Busca tu gato" className="mt-4 mb-2 w-full rounded-lg p-1 text-whit border" />
         <button onClick={sendSearchCats}  className="bg-black p-2 mb-2 rounded-md hover:bg-slate-800 hover:text-white transition text-white" >Buscar</button>
